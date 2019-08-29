@@ -1,10 +1,10 @@
 
 def main():
     score = float(input("Enter score: "))
-    print(score_check(score))
+    print(validate_score(score))
 
 
-def score_check(score):
+def validate_score(score):
     if score < 0 or score > 100:
         return "Invalid score"
     elif score < 50:
