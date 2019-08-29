@@ -1,3 +1,4 @@
+
 import random
 MINIMUM = 0
 MAXIMUM = 45

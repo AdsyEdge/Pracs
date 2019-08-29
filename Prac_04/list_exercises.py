@@ -1,6 +1,6 @@
 def main():
     """
-    Basic List Operations
+    Basic List Operations.
     """
     numbers = []
     for i in range(5):
