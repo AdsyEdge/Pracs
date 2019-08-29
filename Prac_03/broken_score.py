@@ -6,13 +6,13 @@ def main():
 
 def validate_score(score):
     if score < 0 or score > 100:
-        return "Invalid score"
+        return "Invalid score."
     elif score < 50:
-        return "Bad"
+        return "Bad."
     elif 90 > score >= 50:
-        return "Passable"
+        return "Passable."
     else:
-        return "Excellent"
+        return "Excellent."
 
 
 main()
