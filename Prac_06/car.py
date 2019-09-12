@@ -4,10 +4,10 @@
 class Car:
     """Represent a Car object."""
 
-    def __init__(self, fuel=0, name=""):
+    def __init__(self, name="", fuel=0.0):
         """Initialise a Car instance.
-
-        name: string, label of car's type
+        odometer: float, one unit of distance car has driven
+        name: string, label of car, either make, model or nickname for car
         fuel: float, one unit of fuel drives one kilometre
         """
         self.name = name
