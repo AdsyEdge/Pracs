@@ -1,5 +1,5 @@
 split_sentence = {}
-sentence = input("text: ")
+sentence = input("Text: ")
 words = sentence.split()
 for word in words:
     occurrence = split_sentence.get(word, 0)

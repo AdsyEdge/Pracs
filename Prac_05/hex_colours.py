@@ -3,7 +3,7 @@ COLOUR_HEX_CODES = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7", "AntiqueW
                     "aquamarine1": "#7fffd4", "aquamarine2": "#76eec6", "aquamarine4": "#458b74",
                     "azure1": "f0ffff"}
 
-colour_name = input("enter a name (names are case sensitive): ")
+colour_name = input("Enter a name (names are case sensitive): ")
 while colour_name != "":
     if colour_name not in COLOUR_HEX_CODES:
         print("Invalid name")
